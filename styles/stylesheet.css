@@ -17,6 +17,7 @@ li {
 nav {
   width: 100%;
   float: left;
+  background-color: #7051A3;
 }
 nav a {
   float: left;
@@ -32,17 +33,14 @@ aside {
   width: 15%;
   background-color: #B2A0CB;
   color: #FFFFFF;
+  height: 32.85em;
 }
 aside li {
-  padding: 2.1em 1.5em;
+  padding: 2.2em 1.5em;
 }
 aside a {
   text-decoration: none;
   color: #FFFFFF;
-}
-footer li {
-  float: left;
-  margin: 1em;
 }
 p {
   padding-top: 1em;
@@ -53,14 +51,23 @@ p {
 figure {
   margin-left: 15%;
   padding-right: 10%;
-  padding-bottom: 1.3em;
+  padding-bottom: 1.5em;
   background-color: #DADDE4;
+  height: 35em;
 }
-img {
+figure img {
   padding-top: 3em;
   margin-left: 20%;
 }
+img.about-photo {
+  margin-left: 40%;
+  padding-top: 2.15em;
+}
 footer {
   width: 30%;
-  margin:0 auto;
+  margin: 2em auto;
+}
+footer li {
+  float: left;
+  margin: 1em;
 }
